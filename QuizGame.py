@@ -20,4 +20,5 @@ def quiz_game():
 
         print(f"\nYou got {score}/{len(questions)} correct!")
     
-    
+    if __name__ == "__main__":
+        quiz_game()
